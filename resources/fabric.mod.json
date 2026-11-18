@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "casinomod",
+  "version": "${version}",
+  "name": "Казино",
+  "description": "Визуальное казино: Рулетка, Гадалка, Лучший конь. Открыть: клавиша K или команда /casino.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.casino.client.CasinoMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
